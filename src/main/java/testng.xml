@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Suite" parallel="false">
+	<test name="Test">
+
+		<listeners>
+			<listener class-name="com.qa.listener.ExtentReporterNG" />
+		</listeners>
+
+		<classes>
+			<class name="com.test.script.GIT" />
+			<class name="com.test.script.GOOGLE" />
+			<class name="com.test.script.YOUTUBE" />
+		</classes>
+	</test>
+</suite>
